@@ -15,7 +15,7 @@ export default function Home() {
       fetchOptions: {
         onSuccess: () => {
           router.push("/");
-          toast.success("Signed out successfully");
+          toast.success("Signed")
         },
       },
     });
